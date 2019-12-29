@@ -5,7 +5,7 @@ count = 0
 while count < array.length  do
 count += 1
 
-narr **= array[count] 
+narr << array[count] 
 
 end
 return narr
