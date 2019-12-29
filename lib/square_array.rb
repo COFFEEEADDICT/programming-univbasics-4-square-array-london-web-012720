@@ -3,11 +3,9 @@ narr = []
 count = 0
 
 while count < array.length  do
+
+narr << array[count] * array[count]
 count += 1
-
-narr << array[count] 
-
 end
-return narr
+puts narr
 end
-
