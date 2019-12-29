@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+narr = []
+count = 0
+
+while count < array.length  do
+
+narr << array[count] * array[count]
+count += 1
+end
+return narr
 end
