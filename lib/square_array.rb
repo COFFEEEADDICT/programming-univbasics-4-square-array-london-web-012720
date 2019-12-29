@@ -7,5 +7,5 @@ while count < array.length  do
 narr << array[count] * array[count]
 count += 1
 end
-puts narr
+return narr
 end
